@@ -1915,3 +1915,23 @@ blockquote.voice-text strong {
   .cost-comparison { padding: 20px; }
   .why-cheap { padding: 20px; }
 }
+/* ===== 実績注釈 ===== */
+.results-notes {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.results-notes p {
+  margin: 0;
+}
+
+/* （任意）数字の補足を入れる場合 */
+.trust-num-label small {
+  display: block;
+  font-size: 0.75rem;
+  color: #777;
+  margin-top: 4px;
+}
