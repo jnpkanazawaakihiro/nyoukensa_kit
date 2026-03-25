@@ -62,20 +62,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 /* ===== セクション共通 ===== */
 .section { padding: 80px 0; }
 .section-gray { background: var(--color-bg-gray); }
-/* 他のCSS */
-.why-cheap {
-  padding: 20px;
-}
-
-/* ここを修正する */
 .section-blue {
-  background: transparent; /* ←これに変える */
+  background: linear-gradient(135deg, var(--color-bg-blue) 0%, #003D80 100%);
   color: #fff;
 }
-
-/* その下はそのまま */
 .section-form {
-  background: transparent;
+  background: linear-gradient(135deg, #0A1628 0%, #0D2144 100%);
+  color: #fff;
 }
 
 .section-label {
