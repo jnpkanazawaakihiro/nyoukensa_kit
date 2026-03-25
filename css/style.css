@@ -1949,14 +1949,3 @@ blockquote.voice-text strong {
 body {
   background: linear-gradient(135deg, #0A1628 0%, #0D2144 100%);
 }
-section-blue,
-.section-form,
-.section-blue .container,
-.section-form .container {
-  background: transparent !important;
-}
-
-body,
-html {
-  background: linear-gradient(135deg, #0A1628 0%, #0D2144 100%) !important;
-}
