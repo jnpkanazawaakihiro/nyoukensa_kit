@@ -1926,12 +1926,14 @@ blockquote.voice-text strong {
   color: #777;
   margin-top: 4px;
 }
+
 .results-notes {
-  margin-top: 24px;
+  margin: 24px auto 0;
+  max-width: 600px;
   font-size: 12px;
-  color: rgba(255,255,255,0.7); /* ← 白ベースにする */
+  color: rgba(255,255,255,0.8) !important;
   line-height: 1.6;
-  text-align: center; /* ← 中央寄せ */
+  text-align: center;
 }
 
 .results-notes p {
