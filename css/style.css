@@ -1939,3 +1939,6 @@ blockquote.voice-text strong {
 .results-notes p {
   margin: 2px 0;
 }
+body {
+  background: linear-gradient(135deg, #0A1628 0%, #0D2144 100%);
+}
