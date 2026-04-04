@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://medialphaplus.co.jp/sitemap.xml
