@@ -117,6 +117,7 @@
         <a href="#strengths">強み</a>
         <a href="#pricing">価格</a>
         <a href="#cases">実績</a>
+        <a href="#flow">ご利用の流れ</a>
         <a href="#faq">FAQ</a>
         <a href="https://www.medialphaplus.com/index.html" target="_blank" rel="noopener" class="nav-company">会社概要</a>
       </nav>
@@ -677,6 +678,11 @@
           <span class="spec-section-title">使用資材の詳細</span>
           <span class="spec-section-badge">大手検査センター採用品質</span>
         </div>
+        <!-- SP向け：画像長押し案内 -->
+        <div class="material-img-hint sp-only-flex">
+          <i class="fas fa-hand-pointer"></i>
+          <span>画像を長押しすると拡大してご覧いただけます</span>
+        </div>
 
         <!-- ① スピッツ -->
         <div class="material-card reveal">
@@ -780,7 +786,7 @@
           <div class="compare-row">
             <div class="compare-row-label">院内内製コスト（参考）</div>
             <div class="compare-bar-wrap">
-              <div class="compare-bar compare-bar-bad">
+              <div class="compare-bar compare-bar-bad" style="width:100%">
                 <span>150〜200円/本</span>
               </div>
             </div>
@@ -803,6 +809,20 @@
           </div>
         </div>
         <p class="compare-note">※数量・納品条件により変動します。正確な価格はお見積もりにてご確認ください。</p>
+
+        <!-- 見積誘導バナー -->
+        <div class="compare-cta-banner">
+          <div class="compare-cta-left">
+            <div class="compare-cta-icon"><i class="fas fa-tags"></i></div>
+            <div class="compare-cta-text">
+              <strong>表示価格からさらに下げられます</strong>
+              <span>納期のご調整・分納・仕様変更などで、<br class="pc-br">正式お見積もり時にさらにお値引きできるケースが多くあります。</span>
+            </div>
+          </div>
+          <a href="#contact-form" class="compare-cta-btn">
+            <i class="fas fa-file-alt"></i> 無料でお見積もり
+          </a>
+        </div>
       </div>
 
       <!-- 価格タブ -->
@@ -910,6 +930,37 @@
           <p>※表示価格はすべて税抜です。</p>
           <p>※数量・仕様・納品条件により単価は変動します。</p>
           <p>※法人特価は継続数量・納期・納品条件を踏まえて個別にご案内します。</p>
+        </div>
+
+        <!-- 価格表下の見積誘導 -->
+        <div class="pricing-quote-nudge">
+          <div class="pqn-points">
+            <div class="pqn-point">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>納期調整でさらにお値引き</strong>
+                <span>「急がない」「まとめて受け取る」など、ご要望に合わせて価格を最適化します。</span>
+              </div>
+            </div>
+            <div class="pqn-point">
+              <i class="fas fa-truck"></i>
+              <div>
+                <strong>分納・定期便で単価ダウン</strong>
+                <span>月次・週次の定期納品や複数回分納でコストを抑えた安定調達が可能です。</span>
+              </div>
+            </div>
+            <div class="pqn-point">
+              <i class="fas fa-sliders-h"></i>
+              <div>
+                <strong>仕様変更で柔軟に対応</strong>
+                <span>ラベル有無・資材の変更などで、ご予算に合ったプランをご提案します。</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact-form" class="btn btn-primary btn-lg pqn-btn">
+            <i class="fas fa-file-alt"></i> 無料で正式お見積もりを依頼する
+          </a>
+          <p class="pqn-note"><i class="fas fa-lock"></i> 見積もりは無料・強引な営業は一切ありません</p>
         </div>
       </div>
 
@@ -1320,17 +1371,137 @@
     </div>
   </section>
 
+  <!-- ===== 担当者紹介 ===== -->
+  <section class="section section-team">
+    <div class="container">
+      <div class="team-inner reveal">
+
+        <!-- 左：写真 -->
+        <div class="team-photo-wrap">
+          <img src="images/team_sales.jpg" alt="MEDI ALPHA PLUS 営業担当チーム" class="team-photo">
+          <div class="team-photo-badge">
+            <i class="fas fa-star"></i> 専任担当制
+          </div>
+        </div>
+
+        <!-- 右：テキスト -->
+        <div class="team-body">
+          <div class="team-eyebrow">
+            <i class="fas fa-users"></i> 営業担当チーム
+          </div>
+          <h2 class="team-heading">
+            心強い専任担当が、<br>
+            <span class="team-heading-accent">お客様に寄り添って<br>ご提案します。</span>
+          </h2>
+          <p class="team-desc">
+            「どのくらいの数量が必要か分からない」「コストをもっと下げたい」<br class="pc-br">
+            そんなご相談にも、担当者が丁寧にヒアリングし、<br class="pc-br">
+            御社の状況に合わせた最適なプランをご提示します。<br>
+            <strong>強引な営業は一切行いません。</strong>まずはお気軽にご連絡ください。
+          </p>
+          <ul class="team-points">
+            <li><i class="fas fa-check-circle"></i> 担当者が直接対応・迅速なレスポンス</li>
+            <li><i class="fas fa-check-circle"></i> 数量・納期・仕様を一緒に最適化</li>
+            <li><i class="fas fa-check-circle"></i> 契約・購入の強制は一切なし</li>
+          </ul>
+          <div class="team-cta-row">
+            <a href="#contact-form" class="btn btn-primary btn-lg">
+              <i class="fas fa-file-alt"></i> 担当者に無料相談する
+            </a>
+            <a href="tel:0120843297" class="team-tel">
+              <i class="fas fa-phone"></i>
+              <span>
+                <span class="team-tel-num">0120-843-297</span>
+                <span class="team-tel-time">平日 09:00〜18:00</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== サービス導入までの流れ ===== -->
+  <section class="section section-flow" id="flow">
+    <div class="container">
+      <div class="section-eyebrow">ご利用の流れ</div>
+      <h2 class="section-heading">
+        お問い合わせから<span class="heading-accent">最短2日で納品</span>
+      </h2>
+      <p class="section-lead">お見積もりは1分で簡単。即日ご返信いたします。</p>
+
+      <div class="flow-steps reveal">
+
+        <!-- STEP 1 -->
+        <div class="flow-step">
+          <div class="flow-step-num">01</div>
+          <div class="flow-step-icon"><i class="fas fa-file-alt"></i></div>
+          <div class="flow-step-body">
+            <h3 class="flow-step-title">お見積もり</h3>
+            <p class="flow-step-desc">フォームまたはお電話で数量・ご要望をお知らせください。<strong>1分で入力完了・即日ご返信</strong>いたします。</p>
+            <div class="flow-step-badge"><i class="fas fa-bolt"></i> 最短即日対応</div>
+          </div>
+        </div>
+
+        <div class="flow-arrow"><i class="fas fa-chevron-down"></i></div>
+
+        <!-- STEP 2 -->
+        <div class="flow-step">
+          <div class="flow-step-num">02</div>
+          <div class="flow-step-icon"><i class="fas fa-clipboard-check"></i></div>
+          <div class="flow-step-body">
+            <h3 class="flow-step-title">プランの確定</h3>
+            <p class="flow-step-desc">担当者がご状況をヒアリングし、最適なプランをご提案します。</p>
+            <ul class="flow-step-list">
+              <li><i class="fas fa-check"></i> 資材選定（ラベルあり・なし など）</li>
+              <li><i class="fas fa-check"></i> 納期のご調整（直納・分納・定期便）</li>
+              <li><i class="fas fa-check"></i> 納品方法・納品場所のご確認</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flow-arrow"><i class="fas fa-chevron-down"></i></div>
+
+        <!-- STEP 3 -->
+        <div class="flow-step">
+          <div class="flow-step-num">03</div>
+          <div class="flow-step-icon"><i class="fas fa-handshake"></i></div>
+          <div class="flow-step-body">
+            <h3 class="flow-step-title">ご契約・販売</h3>
+            <p class="flow-step-desc">ご確認後、ご発注いただければ手続き完了。<strong>最短2日で納品</strong>します。請求書払い（法人）にも対応。</p>
+            <div class="flow-step-badge flow-step-badge-green"><i class="fas fa-truck"></i> 最短2日で納品</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- フロー下CTA -->
+      <div class="flow-cta reveal">
+        <a href="#contact-form" class="btn btn-primary btn-lg">
+          <i class="fas fa-file-alt"></i> 無料でお見積もりを依頼する
+        </a>
+        <p class="flow-cta-note"><i class="fas fa-lock"></i> 見積もり無料・強引な営業は一切ありません</p>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== 中間CTA ===== -->
   <section class="section section-cta-mid">
     <div class="container">
       <div class="cta-mid-inner reveal">
         <div class="cta-mid-text">
-          <h3>法人見積・継続利用・定期納品の<br>ご相談、お待ちしています。</h3>
-          <p>「まだ正確な数量が出ていない」「概算が知りたい」それだけで十分です。</p>
+          <h3>表示価格はあくまで目安です。<br><span class="cta-mid-accent">正式見積もりで、もっと安くなります。</span></h3>
+          <p>納期・分納・仕様を一緒に整理するだけで、<br class="pc-br">多くのお客様がさらにお値引きを実現されています。</p>
+          <ul class="cta-mid-points">
+            <li><i class="fas fa-check"></i> 納期に余裕がある → 調整可</li>
+            <li><i class="fas fa-check"></i> まとめて or 分割で受け取りたい → 相談可</li>
+            <li><i class="fas fa-check"></i> 仕様を変えてコストを下げたい → 提案可</li>
+          </ul>
         </div>
         <div class="cta-mid-actions">
           <a href="#contact-form" class="btn btn-primary btn-lg">
-            <i class="fas fa-file-alt"></i> 無料で見積依頼する
+            <i class="fas fa-file-alt"></i> 無料で正式お見積もりを依頼する
           </a>
           <a href="tel:0120843297" class="btn btn-outline-navy btn-lg">
             <i class="fas fa-phone"></i> 0120-843-297
@@ -1462,25 +1633,26 @@
 
       <!-- アイコンバッジ -->
       <div class="fcta-eyebrow">
-        <i class="fas fa-star"></i> 法人特価お見積もり
+        <i class="fas fa-star"></i> 法人特価お見積もり — 無料・即日対応
       </div>
 
       <!-- 見出し -->
       <h2 class="fcta-heading">
-        まずは、数量と時期だけ<br>教えてください。
+        お見積もりで、<br>価格はもっと下がります。
       </h2>
 
       <!-- サブコピー -->
       <p class="fcta-lead">
-        「まだ正確な数量が出ていない」「とりあえず概算が知りたい」<br>
-        それだけで十分です。お気軽にご連絡ください。
+        納期・分納・仕様など、ご状況をお聞かせいただくだけで<br>
+        最適なプランと価格をご提示します。<br>
+        <strong>「まだ数量が決まっていない」「概算だけ知りたい」でも大歓迎です。</strong>
       </p>
 
       <!-- 保証バッジ -->
       <div class="fcta-guarantees">
         <span class="fcta-guarantee"><i class="fas fa-check-circle"></i> 見積もり無料・最短即日対応</span>
+        <span class="fcta-guarantee"><i class="fas fa-check-circle"></i> 納期・分納・仕様の相談OK</span>
         <span class="fcta-guarantee"><i class="fas fa-check-circle"></i> 契約・購入の強制なし</span>
-        <span class="fcta-guarantee"><i class="fas fa-check-circle"></i> 安心の日本製・品質保証</span>
         <span class="fcta-guarantee"><i class="fas fa-check-circle"></i> 法人請求書払い対応</span>
       </div>
 
